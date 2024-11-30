@@ -47,3 +47,5 @@ const myFunction = function(){
     console.log("Hello Dosto!");
 }
 console.log(typeof myFunction); // function
+console.log(typeof heroes); // object
+console.log(typeof anotherId); // symbol
