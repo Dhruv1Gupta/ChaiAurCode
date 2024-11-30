@@ -28,8 +28,8 @@ const newStringOne = "   dhruv   "
 
 const url = "https://dhruv.com/dhruvg753gupta"
 
-console.log(url.replace('g753', '-'));
+console.log(url.replace('g753', '-')); // https://dhruv.com/dhruv-gupta
 
-console.log(url.includes('sundar'));
+console.log(url.includes('sundar')); // false
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-')); // [ 'dhruv', 'gpt' ]
