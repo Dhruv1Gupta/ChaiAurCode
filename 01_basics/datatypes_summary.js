@@ -24,7 +24,7 @@ const anotherId = Symbol('123')
 // console.log(typeof anotherId); // symbol
 
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 34565435766445n
 // console.log(typeof bigNumber); // bigint
@@ -46,6 +46,31 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello Dosto!");
 }
-console.log(typeof myFunction); // function
-console.log(typeof heroes); // object
-console.log(typeof anotherId); // symbol
+// console.log(typeof myFunction); // function
+// console.log(typeof heroes); // object
+// console.log(typeof anotherId); // symbol
+
+
+// ++++++++++++++++ Memeory ++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "dhruvguptadotcom"
+
+let anotherName = myYoutubeName
+anotherName = "chaiAurCode"
+
+// console.log(myYoutubeName); // dhruvguptadotcom
+// console.log(anotherName); // chaiAurCode
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email); // hitesh@google.com
+console.log(userTwo.email); // hitesh@google.com
